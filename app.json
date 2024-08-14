@@ -1,21 +1,9 @@
 {
-  "name": "Start on Heroku: Python",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
-  "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": ["python", "django"],
-  "env": {
-    "DJANGO_SECRET_KEY": {
-      "description": "The secret key for the Django application.",
-      "generator": "secret"
-    }
-  },
   "environments": {
     "test": {
       "formation": {
-        
-          "test": "./manage.py " {
-           "quantity": 32,
+        "test": {
+          "quantity": 32
         }
       }
     }
