@@ -10,22 +10,10 @@
       "generator": "secret"
     }
   },
-{
   "environments": {
     "test": {
-      "formation": {
-        "test": {
-          "quantity": 2
-        }
-      },
-      "addons": [
-        "heroku-postgresql"
-      ],
       "scripts": {
-        "test": "python manage.py"
-      },
-      "env": {
-        "KNAPSACK_PRO_TEST_SUITE_TOKEN_CYPRESS": "example"
+        "test": "./manage.py test --debug-mode"
       }
     }
   }
