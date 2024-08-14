@@ -13,7 +13,7 @@
   "environments": {
     "test": {
       "formation": {
-        "scripts": "./manage.py" {
+        "scripts": "./manage.py",
           "test": "./manage.py ",
            "quantity": 32
         }
