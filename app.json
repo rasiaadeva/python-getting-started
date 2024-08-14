@@ -11,7 +11,8 @@
       ],
       "scripts": {
         "test": "./manage.py"
-       }
+          }
+        }
       }
     }
   }
