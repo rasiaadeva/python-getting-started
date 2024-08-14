@@ -2,9 +2,16 @@
   "environments": {
     "test": {
       "formation": {
-        "test": "./manage.py" {
-          "quantity": 32,
+        "test": {
+          "quantity": 32
         }
+      },
+      "addons": [
+        "heroku-postgresql"
+      ],
+      "scripts": {
+        "test": "./manage.py"
+       }
       }
     }
   }
