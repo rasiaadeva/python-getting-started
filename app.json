@@ -15,7 +15,7 @@
       "formation": {
         "scripts": {
           "test": "./manage.py test --debug-mode"
-           "quantity": 32
+           "quantity": 32,
         }
       }
     }
