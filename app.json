@@ -10,9 +10,10 @@
         "heroku-postgresql"
       ],
       "scripts": {
-        "test": "./manage.py" {
-      
-        },
+        "test": "./manage.py"
+      },
+      "env": {
+        "KNAPSACK_PRO_TEST_SUITE_TOKEN_RSPEC": "rspec-token"
       }
     }
   }
