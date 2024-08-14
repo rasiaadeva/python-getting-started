@@ -1,7 +1,7 @@
 "environments": {
   "test": {
     "formation": {
-      "test": "./manage.py test --debug-mode" {
+      "test": "./manage.py test --debug-mode"
         "quantity": 2
       }
     }
