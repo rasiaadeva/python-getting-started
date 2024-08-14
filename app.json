@@ -1,9 +1,18 @@
+// app.json
 {
-"environments": {
-  "test": {
-    "formation": {
-      "test": "./manage.py test --debug-mode"
-        "quantity": 2
+  ...
+  "environments": {
+    "test": {
+      "formation": {
+        "test": {
+          "quantity": 4,
+          "size": "performance-m"
+        }
+      },
+      "env": {  "POSTGRESQL_VERSION": "11"  },
+      "addons": ["heroku-postgresql:in-dyno", "heroku-redis:in-dyno"],
+      "scripts": {
+        "test": "bash ./manage.py"
       }
     }
   }
