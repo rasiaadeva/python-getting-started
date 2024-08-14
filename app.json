@@ -10,8 +10,8 @@
         "heroku-postgresql"
       ],
       "scripts": {
-        "test": "./manage.py"
-          }
+        "test": "./manage.py" {
+      
         }
       }
     }
