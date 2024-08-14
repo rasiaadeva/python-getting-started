@@ -15,7 +15,7 @@
       "formation": {
         
           "test": "./manage.py " {
-           "quantity": 32
+           "quantity": 32,
         }
       }
     }
