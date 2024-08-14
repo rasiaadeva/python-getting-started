@@ -12,8 +12,11 @@
   },
   "environments": {
     "test": {
+    "formation": {
       "scripts": {
         "test": "./manage.py test --debug-mode"
+           "quantity": 2
+        }
       }
     }
   }
