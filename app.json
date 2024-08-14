@@ -14,7 +14,7 @@
     "test": {
       "formation": {
         "scripts": {
-          "test": "./manage.py test --debug-mode",
+          "test": "python manage.py ",
            "quantity": 32
         }
       }
