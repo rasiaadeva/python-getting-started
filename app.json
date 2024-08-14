@@ -7,13 +7,14 @@
         }
       },
       "addons": [
-        ""
+        "heroku-postgresql"
       ],
       "scripts": {
-        "test": "./manage.py"
+        "test": "python manage.py"
       },
-      
-      
+      "env": {
+        "KNAPSACK_PRO_TEST_SUITE_TOKEN_CYPRESS": "example"
+      }
     }
   }
 }
