@@ -3,17 +3,17 @@
     "test": {
       "formation": {
         "test": {
-          "quantity": 32
+          "quantity": 2
         }
       },
       "addons": [
-        "heroku-postgresql"
+        ""
       ],
       "scripts": {
         "test": "./manage.py"
       },
       "env": {
-        "KNAPSACK_PRO_TEST_SUITE_TOKEN_RSPEC": "rspec-token"
+        ""
       }
     }
   }
